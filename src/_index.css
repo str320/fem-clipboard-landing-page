@@ -1,0 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,100..900;1,400;1,100..900&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+/* Reset */
+@import url("../src/_base.css");
+
+/* Default */
+@import url("../src/_default.css");
+
+/* Header */
+@import url("../common.blocks/header/_header.css");
+
+/* Button */
+@import url("../common.blocks/button/_button.css");
+
+/* Track */
+@import url("../common.blocks/track/_track.css");

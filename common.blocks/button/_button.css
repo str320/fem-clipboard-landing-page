@@ -1,0 +1,17 @@
+.button {
+    all: unset;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--clr-tretiary-white-100);
+    padding: 13px 26px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.button--green {
+    background-color: var(--clr-prim-green-500);
+}
+
+.button--blue {
+    background-color: var(--clr-prim-blue-500);
+}

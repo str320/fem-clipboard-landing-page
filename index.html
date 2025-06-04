@@ -2,45 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/_index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Clipboard landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Clipboard landing page</title>
 </head>
 <body>
-
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
+  <header class="header">
+    <picture class="header__image">
+      <img src="./images/bg-header-desktop.png" alt="hero image pattern" class="header__img">
+    </picture>
+    <div class="header__content">
+      <picture class="header__content-image">
+        <img src="./images/logo.svg" alt="company logo" class="header__content-img">
+      </picture>
+      <div class="header__details">
+        <h1 class="header__details-title">A history of everything you copy</h1>
+        <p class="header__details-text">Clipboard allows you to track and organize everything you 
+    copy. Instantly access your clipboard on all your devices.</p>
+        <div class="header__group">
+          <button class="button button--green" type="button">Download for iOS</button>
+          <button class="button button--blue" type="button">Download for Mac</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="track">
+      <div class="track__content">
+        <h2 class="track__content-title">Keep track of your snippets</h2>
+        <p class="track__content-text"> Clipboard instantly stores any item you copy in the cloud, 
   meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
+  devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
+      <div class="track__wrapper">
+        <picture class="track__image">
+          <img src="./images/image-computer.png" alt="i mac photo" class="track__img">
+        </picture>
+        <div class="track__features">
+          <h2 class="track__features-title">Quick Search</h2>
+          <p class="track__features-text">Easily search your snippets by content, category, web address, application, and more.</p>
+          <h2 class="track__features-title">iCloud Sync</h2>
+          <p class="track__features-text">Instantly saves and syncs snippets across all your devices.</p>
+          <h2 class="track__features-title">Complete History</h2>
+          <p class="track__features-text">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  Quick Search
+  
 
-  Easily search your snippets by content, category, web address, application, and more.
+  
+  
 
-  iCloud Sync
 
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
 
   Access Clipboard anywhere
 
@@ -77,11 +94,5 @@
   Press Kit
   Install Guide
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>

@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --clr-prim-green-300: hsl(171, 52%, 58%);
+    --clr-prim-green-500: hsl(171, 66%, 44%);
+    --clr-prim-blue-300: hsl(232, 100%, 77%);
+    --clr-prim-blue-500: hsl(233, 100%, 69%);
+
+    --clr-sec-gray-50: hsl(180, 11%, 96%);
+    --clr-sec-gray-500: hsl(201, 11%, 66%);
+    --clr-sec-gray-700: hsl(210, 10%, 33%);
+    --clr-sec-black-900: hsl(0, 0%, 16%);
+
+    --clr-tretiary-white-100: hsl(0, 100%, 100%);
+    --clr-tretiary-black-900: hsl(0, 0%, 0%);
+
+    --clr-grad-1-700: hsl(0, 0%, 31%);
+    --clr-grad-1-900: hsl(0, 0%, 0%);
+
+    --clr-grad-2-600: hsl(0, 0%, 43%);
+    --clr-grad-2-900: hsl(0, 0%, 0%);
+}
+
+body {
+    font-family: "Bai Jamjuree", "font-awesome";
+    background-color: var(--clr--sec-gray-50);
+}
