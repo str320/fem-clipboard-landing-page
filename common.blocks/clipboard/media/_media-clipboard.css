@@ -1,0 +1,24 @@
+@media (max-width: 68.75rem) {
+    .clipboard__container {
+        padding: 0 76px;
+    }
+    .clipboard__content {
+        padding: 0;
+    }
+    .clipboard__content-text {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 38.125rem) {
+    .clipboard__container {
+        padding: 0 28px;
+    }
+    .clipboard__content-title {
+        font-size: 1.75rem;
+    }
+    .clipboard__content-text {
+        font-size: 1rem;
+        margin-bottom: 72px;
+    }
+}

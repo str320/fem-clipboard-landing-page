@@ -23,3 +23,9 @@
 
 /* Media Track */
 @import url("../common.blocks/track/media/_media-track.css");
+
+/* Clipboard */
+@import url("../common.blocks/clipboard/_clipboard.css");
+
+/*  Media Clipboard */
+@import url("../common.blocks/clipboard/media/_media-clipboard.css");
