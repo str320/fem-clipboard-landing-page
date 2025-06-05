@@ -1,22 +1,15 @@
 .header {
-    isolation: isolate;
-    position: relative;
-    max-height: 363px;
-    margin-bottom: 337px;
+    background: url("/images/bg-header-desktop.png") center center / cover no-repeat;
+    margin-bottom: 158px;
 }
 
 .header__content {
-    position: absolute;
-    top: 131px;
-    left: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 56px;
     text-align: center;
-    max-width: 746px;
-    padding: 0 16px;
+    padding: 131px 0;
     margin: 0 auto;
 }
 
@@ -40,6 +33,7 @@
     font-weight: 400;
     font-size: 1.25rem;
     color: var(--clr-sec-gray-500);
+    max-width: 746px;
     margin-bottom: 48px;
 }
 

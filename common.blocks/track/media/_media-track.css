@@ -1,0 +1,36 @@
+@media (max-width: 68.75rem) {
+    .track {
+        gap: 96px;
+        padding-inline: 76px;
+        margin-bottom: 157px;
+    }
+    .track__content-text {
+        max-width: 616px;
+    }
+    .track__wrapper {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 96px;
+        text-align: center;
+    }
+    .track__image {
+        max-width: 608px;
+        margin: 0px;
+    }
+    .track__features {
+        max-width: 350px;
+        padding-inline: 0;
+    }
+}
+
+@media (max-width: 38.125rem) {
+    .track {
+        padding-inline: 28px;
+    }
+    .track__content-title {
+        font-size: 1.75rem;
+    }
+    .track__content-text {
+    font-size: 1rem;
+    }
+}

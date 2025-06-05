@@ -1,3 +1,8 @@
+.main__container {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
 .track {
     display: grid;
     gap: 64px;
@@ -6,8 +11,7 @@
 
 .track__content {
     text-align: center;
-    max-width: 746px;
-    padding: 0 16px;
+    max-width: 730px;
     margin: 0 auto;
 }
 
@@ -32,7 +36,11 @@
 }
 
 .track__image {
-    margin-left: -20px;
+    margin-left: -50px;
+}
+
+.track__img {
+    object-fit: contain;
 }
 
 .track__features {

@@ -1,0 +1,27 @@
+@media (max-width: 68.75rem) {
+    .header__content {
+        padding-inline: 76px;
+    }
+    .header__details-title {
+        font-size: 2.5rem;
+        line-height: 1.25;
+    }
+    .header__details-text {
+        max-width: 616px;
+    }
+}
+
+@media (max-width: 38.125rem) {
+    .header__content {
+        padding-inline: 28px;
+    }
+    .header__details-title {
+        font-size: 2rem;
+    }
+    .header__details-text {
+        font-size: 1rem;
+    }
+     .header__group {
+        flex-direction: column;
+    }
+}
