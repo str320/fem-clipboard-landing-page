@@ -1,6 +1,6 @@
-.clipboard__container {
+.clipboard {
     max-width: 810px;
-    margin: 0 auto;
+    margin: 0 auto 170px;
 }
 
 .clipboard__content {

@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 38.125rem) {
-    .clipboard__container {
+    .clipboard {
         padding: 0 28px;
     }
     .clipboard__content-title {

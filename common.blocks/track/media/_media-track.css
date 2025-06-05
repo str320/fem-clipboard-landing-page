@@ -4,9 +4,6 @@
         padding-inline: 76px;
         margin-bottom: 157px;
     }
-    .track__content-text {
-        max-width: 616px;
-    }
     .track__wrapper {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -18,12 +15,11 @@
         margin: 0px;
     }
     .track__features {
-        max-width: 350px;
         padding-inline: 0;
     }
 }
 
-@media (max-width: 38.125rem) {
+@media (max-width: 38.75rem) {
     .track {
         padding-inline: 28px;
     }

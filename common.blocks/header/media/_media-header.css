@@ -11,7 +11,7 @@
     }
 }
 
-@media (max-width: 38.125rem) {
+@media (max-width: 38.75rem) {
     .header__content {
         padding-inline: 28px;
     }
